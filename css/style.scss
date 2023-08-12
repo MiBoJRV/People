@@ -388,6 +388,7 @@ li {
     display: flex;
     margin-bottom: 30px;
     align-items: center;
+    padding: 0 15px;
 
     @media only screen and (max-width: 991px) {
       flex-direction: column;
@@ -404,6 +405,7 @@ li {
       line-height: 20px;
       letter-spacing: 0.501px;
       margin-bottom: 0;
+      padding-left: 0;
 
       @media only screen and (max-width: 991px) {
         display: flex;
@@ -421,7 +423,7 @@ li {
       gap: 8px;
 
       @media only screen and (max-width: 991px) {
-        padding: 2px 16px 0;
+        padding: 2px  0;
       }
 
       li {
